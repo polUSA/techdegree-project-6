@@ -1,0 +1,46 @@
+{
+  "projects": [
+    {
+      "id": 0,
+      "project_name": "Random Quote Generator",
+      "description": "A simple web application that randomly displays a famous, inspirational quote.",
+      "technologies": ["javascript", "html", "css"],
+      "live_link": "https://eager-mccarthy-f76bd9.netlify.com",
+      "github_link": "https://github.com/polUSA/techdegree-project-1",
+      "image_urls": ["images/project-1-1.png", "images/project-1-2.png"]
+    }, {
+      "id": 1,
+      "project_name": "List Pagination and Filtering",
+      "description": "A web application that displays a long list of students. Additional functionalities include dynamic pagination and an interactive search capability.",
+      "technologies": ["javascript", "jquery", "html", "css"],
+      "live_link": "https://inspiring-bassi-4bbd34.netlify.com",
+      "github_link": "https://github.com/polUSA/techdegree-project-2",
+      "image_urls": ["images/project-2-1.png", "images/project-2-2.png"]
+    }, {
+      "id": 2,
+      "project_name": "Interactive Form",
+      "description": "An interactive web form where inputs are verified before the user can submit it. Other functionalities include dynamic options that are shown based on the user's choice.",
+      "technologies": ["javascript", "jquery", "html", "css"],
+      "live_link": "https://zealous-bhabha-c703d0.netlify.com",
+      "github_link": "https://github.com/polUSA/techdegree-project-3",
+      "image_urls": ["images/project-3-1.png", "images/project-3-2.png", "images/project-3-3.png"]
+      
+    }, {
+      "id": 3,
+      "project_name": "Game Show App",
+      "description": "A web based phrase hunter game. The user has 5 lives to guess an entire phrase before losing the game. Several different phrases can be added to the game.",
+      "technologies": ["javascript", "object oriented design","jquery", "html", "css"],
+      "live_link": "https://flamboyant-lovelace-dd3bc6.netlify.com",
+      "github_link": "https://github.com/polUSA/techdegree-project-4",
+      "image_urls": ["images/project-4-1.png", "images/project-4-2.png", "images/project-4-3.png"]
+    }, {
+      "id": 4,
+      "project_name": "Employees directory",
+      "description": "A web based application that retrieves a list of employees from a server by making an API request. A dynamic search functionality has been added once the list is shown on the screen!",
+      "technologies": ["javascript", "fecth API", "jquery", "html", "css"],
+      "live_link": "https://blissful-leavitt-2298ce.netlify.com",
+      "github_link": "https://github.com/polUSA/techdegree-project-5",
+      "image_urls": ["images/project-5-1.png", "images/project-5-2.png"]
+    }
+  ]
+}

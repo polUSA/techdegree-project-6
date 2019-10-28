@@ -42,9 +42,15 @@ block content
           li myemail@email.com
 
         //- Add URLs to the hrefs below to link to your social media accounts.
-        a.button.expanded(href='#') LinkedIn
-        a.button.expanded(href='https://github.com/polusa' target="_blank") GitHub
-        a.button.expanded(href='https://twitter.com/polusa' target="_blank") Twitter
+        a.button.expanded(href='#')
+          i.fab.fa-linkedin(aria-hidden='true')  
+          |   LinkedIn  
+        a.button.expanded(href='https://github.com/polusa', target='_blank')
+          i.fab.fa-github  
+          |   GitHub  
+        a.button.expanded(href='https://twitter.com/polusa' target="_blank") 
+          i.fab.fa-twitter-square  
+          |   Twitter  
   nav.grid-container.portfolio-breadcrumb
     a(href='/') ← Back
   

@@ -148,3 +148,29 @@ a:hover{
 .portfolio-bio{
     line-height: 25px;
 }
+
+/*
+customization
+*/
+.off-canvas{
+  background-color: rgb(16, 73, 106) !important
+}
+
+.text-light{
+  color: rgb(220,220,220) !important
+}
+h5, h1, h6{
+  color: rgb(62, 134, 133) !important
+}
+
+a[href='/about']{
+  color: rgb(169, 218, 170) !important
+}
+
+a[class="button"]{
+  color: rgb(220,220,220) !important
+}
+
+li{
+  color: rgb(62, 134, 133) !important
+}

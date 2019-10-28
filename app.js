@@ -28,7 +28,16 @@ app.get('/about',(req, res, next)=>{
 app.get(/^\/project\/(\d+)$/, (req, res, next) => {
   //I removed 1 from the paramter so it matches the projects array index
   const id = req.params[0] - 1
-  res.render('project', { project: data.projects[id] })
+  res.render('project', { project: data.projects[id] }, (err, html)=>{
+    //error handling if the project id is not found
+    if(err){
+      const error = new Error("The project requested does not exist")
+      error.status = 404
+      next(error) 
+    } else {
+      res.send(html)
+    }
+  })
 
 })
 

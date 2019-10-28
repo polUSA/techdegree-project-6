@@ -1,4 +1,7 @@
 extends layout
 
 block content
-  h1 error occured
+  h2 #{err.message}
+  h3 Error code: #{err.status}
+  br
+  pre #{err.stack}
